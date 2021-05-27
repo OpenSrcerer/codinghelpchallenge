@@ -6,8 +6,6 @@ package challenges;
  * Apache © 2021 OpenSrcerer
  */
 
-import java.awt.event.KeyAdapter;
-import java.awt.event.KeyEvent;
 import java.io.*;
 import java.time.Instant;
 import java.time.temporal.ChronoUnit;
@@ -21,6 +19,12 @@ import java.util.stream.LongStream;
 
 /**
  * Challenge 3 - Demonstrating the commonly known FizzBuzz challenge using multithreading.
+ * This program allows you to run FizzBuzz and count up to 9,223,372,036,854,775,807.
+ *
+ * The main purpose of it though is to demonstrate how multithreading can improve performance.
+ * By running the program in multi-threaded mode, you are able to view the difference in time between a single-threaded
+ * and multi-threaded approach.
+ * You can also save these results to a file.
  */
 public class Challenge3 {
 
