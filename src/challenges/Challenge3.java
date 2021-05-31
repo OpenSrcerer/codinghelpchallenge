@@ -191,7 +191,6 @@ public class Challenge3 {
 
         try {
             for (int index = 0; index < nCores; ++index) {
-
                 if (threadView) {
                     out.println("Thread-" + (index + 1));
                     out.println(futures.get(index).get().toString());
